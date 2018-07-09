@@ -74,7 +74,8 @@ public class MyCollection implements DynamicArray{
 		public void doubleCapacity() 
 		{
 			arr_len=numArray.length;
-			int[] new_temp_array = new int[2*arr_len];
+			int muti=2*arr_len;
+			int[] new_temp_array = new int[multi];
 			for(int i=0;i<arr_len;i++)
 			{
 				new_temp_array[i]=numArray[i];
