@@ -39,7 +39,7 @@ public class MyCollection implements DynamicArray{
 		{
 			int String_len;
 			int flag_for_search=search( numberToAdd);
-			if(flag_for_search==-1)
+			if(flag_for_search!=-1)
 			{
 				return false;
 			}
